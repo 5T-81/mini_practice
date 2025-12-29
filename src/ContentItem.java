@@ -60,6 +60,6 @@ public abstract class ContentItem {
 
     @Override
     public String toString() {
-        return "Content ID: " + getId() + "\nTitle: " + getTitle() + "\nYear: " + getYear() + "\nDuration: " + getDurationMinutes();
+        return "Content ID: " + getId() + "\nTitle: " + getTitle() + "\nYear: " + getYear() + "\nDuration: " + getDurationMinutes() + " Minutes";
     }
 }
